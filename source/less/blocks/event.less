@@ -1,0 +1,87 @@
+.event {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 19px 25px 43px 0px rgba(0, 0, 0, 0.17);
+
+}
+
+.event__info {
+    color: rgb(61, 37, 20);
+}
+
+.event__info-header {
+    font-size: 35px;
+    font-family: "Alfa Slab One";
+    text-transform: uppercase;
+}
+
+.event__info-header--size {
+    font-size: 22px;
+    font-family: "Bebas Neue";
+}
+
+.event__info-text {
+    font-size: 15px;
+    font-family: "Montserrat";
+}
+
+.event__lable {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: rgb(220, 220, 220);
+    border: none;
+    cursor: pointer;
+}
+
+.event__lable--active {
+    background-color: rgb(255, 192, 69);
+}
+
+// Grids
+.event {
+    margin: 0 80px 50px 80px;
+    @media @tablet {
+        margin: 0 10px 50px 10px;
+    }
+   // display: flex;
+}
+
+.event__info {
+    display: flex;
+    justify-content: space-between;
+    //flex-direction: column;
+}
+
+.event__info-wraper {
+    display: flex;
+    flex-direction: column;
+    margin: 55px 40px 55px 55px;
+    max-width: 50%;
+
+    @media @tablet {
+        max-width: 100%; 
+    }
+    
+}
+
+.event__info-img {  
+    //max-width: 50%;
+    //height: auto;
+    margin-top: 25px;
+    margin-right: 25px;
+    @media @tablet {
+        display: none;
+    }
+}
+
+// .event__lable {
+//     position: relative;
+// }
+
+.event__lable-wraper {
+    position: relative;
+    width: max-content;
+    top: -50px;
+    left: 55px;
+
+}

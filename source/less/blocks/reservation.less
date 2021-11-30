@@ -1,0 +1,144 @@
+.reservation {
+    //background-color: white;
+    text-transform: uppercase;
+}
+
+.reservation-form {
+    font-size: 15px;
+    font-family: "Bebas Neue";
+    color: rgb(61, 61, 61);
+}
+
+.reservation__header {
+    font-size: 39px;
+    font-family: "Alfa Slab One";
+    color: rgb(61, 37, 20);
+    
+}
+
+.reservation__text {
+    font-size: 21px;
+    font-family: "Bebas Neue";
+    color: rgb(61, 37, 20);
+   // text-transform: uppercase;
+}
+
+.reservation-form__input {
+    width: 355px;
+    height: 65px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(190, 190, 190);
+    border-radius: 5px;
+    background-color: rgba(235, 174, 76, 0);
+    padding-left: 22px;
+    background-color: #fff;
+
+    @media @mobile {
+        width: 255px;
+        height: 45px;
+    }
+}
+
+.reservation-button {
+    font-size: 17px;
+    font-family: "Alfa Slab One";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    cursor: pointer;
+    
+    border-width: 0;
+    width: 380px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: rgb(191, 34, 34);
+
+    @media @mobile {
+        width: 280px;
+        height: 45px;
+    }
+}
+
+.reservation-button:hover  {
+    transition: 0.2s;    
+    background-color: #611616;
+}
+
+// Gerids 
+.reservation-wraper {
+    //background: url(../../img/plate-reservation@1x.jpg) auto 0 no-repeat;
+    // background-image: url(../../img/plate-reservation@1x.jpg);
+    // background-repeat: no-repeat;
+    // background-size: 300px auto;
+    // background-position: right;
+    // background-position-y: 100px;
+
+    padding-top: 100px;
+
+    background-image: url(../../img/plate-reservation@1x.jpg), url(../../img/burger-reservation@1x.jpg);
+    background-position: right bottom -86px, left top;
+    background-repeat: no-repeat, no-repeat;
+    
+
+}
+
+// .reservation-wraper::after {
+//     content: '';
+//     width: 210px;
+//     height: 430px;
+//     position: absolute;
+// 	background-image: url(../../img/bottle-reservation@1x.jpg);	
+//     background-repeat: no-repeat;
+//     background-size: 100% auto;
+//     background-position: right;
+//     background-position-y: 100px;
+// }
+
+.reservation {
+    display: flex;
+    flex-direction: column;
+    max-width: 870px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-bottom: 130px; 
+    padding-left: 130px;
+    padding-right: 130px;
+
+    background-image:  url(../../img/bottle-reservation@1x.png);
+    background-position: left -15px top 115px;
+    background-repeat: no-repeat;
+
+    @media @mobile {
+        //max-width: 320px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+.reservation-form {
+    padding-left: 28px;
+
+    @media @tablet {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.reservation__header {
+    margin-bottom: 90px;
+    @media @mobile {
+        margin-bottom: 40px;
+    }
+}
+
+.reservation-form__input {
+    margin: 0 28px 30px 0;
+
+}
+
+.reservation__text {
+    order: -1;
+}

@@ -1,0 +1,26 @@
+// @mobile-width: 320px;
+// @tablet-width: 768px;
+// @desktop-width: 1200px;
+
+@mobile-width: 768px;
+@tablet-width: 1200px;
+@desktop-width: 1500px;
+
+@retina-dpi: 144dpi;
+
+@mobile: ~"(max-width: @{mobile-width})";
+@tablet: ~"(max-width: @{tablet-width})";
+@desktop: ~"(max-width: @{desktop-width})";
+
+@retina: ~"(min-resolution: @{retina-dpi})";
+
+@font-family-base: "Alfa Slab One", "Bebas Neue", "Montserrat", Arial, sans-serif;
+@font-size-base: 16px;
+@line-height-base: 20px;
+
+@color-black: #000000;
+@color-white: #fff;
+
+@font-color-base: @color-black;
+
+@bg-color-body: @color-white;

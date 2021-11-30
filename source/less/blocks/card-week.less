@@ -1,0 +1,167 @@
+.card-week__text{
+    font-size: 18px;
+    font-family: "Bebas Neue";
+    color: rgb(61, 37, 20);
+    text-transform: uppercase;
+    border-width: 2px;
+    border-color: rgb(61, 37, 20);
+    border-style: dashed;
+    width: max-content;
+    padding: 20px 20px 17px 20px;
+    margin-bottom: 25px;
+
+    @media @mobile {
+        font-size: 14px;
+    }
+}
+
+.card-week__header{
+    font-size: 90px;
+    font-family: "Alfa Slab One";
+    line-height: 72px;
+    margin: 0;    
+    color: rgb(61, 37, 20);
+    text-transform: uppercase;
+    text-shadow: 4px 4px 0px #fee8bc;
+
+    @media @mobile {
+        font-size: 55px;
+    }
+}
+
+.card-week__header--small {
+    font-size: 45px;    
+} 
+
+.card-week__price{
+    font-size: 50px;
+    font-family: "Bebas Neue";
+    color: rgb(255, 255, 255); 
+    text-transform: uppercase;
+
+    @media @mobile {
+        font-size: 35px;
+    }
+}
+
+.card-week__price--wrapper {
+    width: 174px;
+    height: 174px;
+    border-radius: 50%;
+    background-color: rgb(191, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media @mobile {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+.card-week__price--border {
+    width: 150px;
+    height: 150px;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: dashed;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media @mobile {
+        width: 85px;
+        height: 85px;
+    }
+}
+
+.card-week__price--size-22 {
+    font-size: 22px;
+}
+
+.card-week__price--size-24 {
+    font-size: 25px;
+
+    @media @mobile {
+        font-size: 15px; 
+    }
+}
+
+.card-week__price--letter-spacing:not(:last-child) {
+    letter-spacing: 5px;
+}
+
+
+.card-week-greed {
+    display: flex;
+    //flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    @media @tablet {
+        justify-content: center; 
+        flex-wrap: wrap;       
+    }
+}
+
+
+
+.card-week-greed__burger {
+    display: flex;
+    flex-direction: column;
+    min-width: 650px;
+    min-height: auto;
+
+    padding: 400px 70px 200px 200px;
+    margin: -400px 0px -200px -200px;
+
+    background-image: url(../../img/burger_glow.png);
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    background-position-x: center;
+    background-position-y: 200px;
+    //margin: -200px -60px -300px -250px;
+
+    @media @tablet {
+        margin-right: 0;
+        margin-left: 40px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    @media @mobile {
+        min-width: auto;
+
+        // padding: 400px 30px 200px 0;
+        // margin: -400px auto -200px auto;
+        padding: 0;
+        padding-bottom: 10px;
+        margin: 0 5px 0 35px;
+        //padding: 400px 158px 200px 300px;
+    }
+}
+
+.card-week__price--wrapper {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 340px;
+
+    @media @mobile {
+        margin-top: 0;
+    }
+}
+
+.card-week-greed__text {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 60px;
+    //padding-right: 60px;
+
+    @media @tablet { 
+        align-items: center;      
+        order: 1;
+        padding-left: 0;
+    }
+}

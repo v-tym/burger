@@ -1,0 +1,45 @@
+.menu {
+    font-family: 'Bebas Neue';
+    font-size: 21px;
+    letter-spacing: 4px;
+    color: rgb(61, 37, 20);
+    text-transform: uppercase;
+    // line-height: 1.2;
+    padding: 0;
+}
+
+.menu__item {
+    list-style-type: none;
+}
+
+.menu__item:not(:last-child) {
+    list-style-type: none;
+    padding: 15px 15px 15px 15px;
+}
+
+.menu__item:last-child {
+    padding: 15px 0px 15px 15px;
+}
+
+.menu__item:hover {
+    background-color: #ffb72b;
+}
+
+.menu__item:not(:last-child){
+    margin-right: 50px;
+}
+  
+// Position
+.menu {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+    @media @mobile {
+        flex-wrap: wrap;
+        padding-left: 25px;
+        padding-right: 25px;
+        //width: 400px;
+    }
+}
+  

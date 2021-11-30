@@ -1,0 +1,85 @@
+.order-item {
+    font-size: 27px;
+    font-family: "Bebas Neue";
+    color: rgb(61, 37, 20);
+    text-transform: uppercase;
+    margin: 0 50px 0 50px;
+    //flex-grow: 1;
+
+    @media @mobile {
+        margin: 0;
+    }
+}
+
+.order-item--text {
+    font-size: 13px;
+    font-family: "Montserrat";
+    color: rgb(61, 37, 20);
+    text-align: center;
+    text-transform: none;
+    margin: 15px 0 40px 0;
+    max-width: 300px;
+}
+
+.order-item--button {
+    color: white;
+    background-color: #bf2222;
+    border: none;
+    font-size: 16px;
+    font-family: "Alfa Slab One";
+    text-transform: uppercase;
+    padding: 25px 40px 25px 40px;
+    cursor: pointer;
+}
+
+.order-item--button:hover  {
+    transition: 0.2s;    
+    background-color: #611616;
+}
+
+
+.order-item__img--shadow {       
+    width: 100%;
+    height: 45px;
+    background-image: url(../../img/Shadow@1x.jpg);
+    background-repeat: no-repeat;    
+    background-size: 120% 100%;
+    background-position: center;
+    // position: relative;
+    // left: 60px;
+}
+
+//Grids
+.order-item {
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center; 
+    margin-bottom: 130px;   
+}
+
+.order-item__img {
+    order: -1;
+}
+
+.order-item__img-wraper {
+    max-width: 350px;
+    max-height: 415px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    order: -1;
+    margin-bottom: 10px;
+}
+
+.order-item__img-wraper:hover {
+    transition: 0.3s;
+    transform: scale(1.03);
+}
+
+.order-item__wraper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}

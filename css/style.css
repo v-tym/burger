@@ -559,7 +559,7 @@ a {
   min-height: auto;
   padding: 400px 70px 200px 200px;
   margin: -400px 0px -200px -200px;
-  background-image: url(../../img/burger_glow.png);
+  background-image: url(https://v-tym.github.io/burger/img/burger_glow.png);
   background-repeat: no-repeat;
   background-size: 120% 100%;
   background-position-x: center;
@@ -802,7 +802,7 @@ a {
 }
 .reservation-wraper {
   padding-top: 100px;
-  background-image: url(../../img/plate-reservation@1x.jpg), url(../../img/burger-reservation@1x.jpg);
+  background-image: url(https://v-tym.github.io/burger/img/plate-reservation@1x.jpg), url(https://v-tym.github.io/burger/img/burger-reservation@1x.jpg);
   background-position: right bottom -86px, left top;
   background-repeat: no-repeat, no-repeat;
 }
@@ -817,7 +817,7 @@ a {
   padding-bottom: 130px;
   padding-left: 130px;
   padding-right: 130px;
-  background-image: url(../../img/bottle-reservation@1x.png);
+  background-image: url(https://v-tym.github.io/burger/img/bottle-reservation@1x.png);
   background-position: left -15px top 115px;
   background-repeat: no-repeat;
 }
@@ -888,7 +888,7 @@ a {
 .order-item__img--shadow {
   width: 100%;
   height: 45px;
-  background-image: url(../../img/Shadow@1x.jpg);
+  background-image: url(https://v-tym.github.io/burger/img/Shadow@1x.jpg);
   background-repeat: no-repeat;
   background-size: 120% 100%;
   background-position: center;
@@ -924,7 +924,7 @@ a {
 .header-wraper {
   background-color: #ffc657;
   padding: 60px 0px 60px 0px;
-  background: url(../../img/pattern.jpg);
+  background: url(https://v-tym.github.io/burger/img/pattern.jpg);
 }
 .header-wraper__logo {
   display: flex;
@@ -1007,7 +1007,7 @@ a {
   content: '';
   width: 45px;
   height: 35px;
-  background-image: url(../../img/svg/moto.svg);
+  background-image: url(https://v-tym.github.io/burger/img/svg/moto.svg);
   background-repeat: no-repeat;
   background-size: 45px auto;
   position: absolute;
